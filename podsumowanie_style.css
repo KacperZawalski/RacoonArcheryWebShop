@@ -1,0 +1,79 @@
+.naglowek {
+	font-weight:bold;
+	border:0.15vw solid #007000;
+}
+.tabela {
+	width:36vw;
+	margin-left:0vw;
+	margin-right:0vw;
+	float:left;
+	color:#007000;
+	margin-top:3vw;
+	background:#FFFFFF;
+	border-collapse:collapse;
+	border: 0.15vw solid #007000;
+	border-spacing:2vw;
+	font-family: 'Acme', sans-serif;
+	font-size:1.4vw;
+}
+.tabela_a {
+	float:right;
+}
+
+td {
+	text-align:center;
+	padding:1vw;
+	border: 0.15vw solid #007000;
+}
+.podsumowanie {
+	border:0.15vw solid #007000;
+	font-weight:bold;
+}
+.adres {
+	font-size:1.4vw;
+	margin-left:1vw;
+	float:right;
+}
+.zamawiam_place {
+	float:right;
+	cursor:hand;
+	margin-top:1vw;
+	padding:0.3vw;
+	color:#FFFFFF;
+	background:#007000;
+	font-size:1.25vw;
+	font-family: 'Acme', sans-serif;
+	border: 0.1vw solid #007000;
+	border-top-right-radius:0.5vw;
+	border-top-left-radius:0.5vw;
+	border-bottom-right-radius:0.5vw;
+	border-bottom-left-radius:0.5vw;
+}
+.powrot {
+	float:right;
+	cursor:hand;
+	margin-top:1vw;
+	margin-right:1vw;
+	padding:0.3vw;
+	color:#FFFFFF;
+	background:#007000;
+	font-size:1.25vw;
+	font-family: 'Acme', sans-serif;
+	border: 0.1vw solid #007000;
+	border-top-right-radius:0.5vw;
+	border-top-left-radius:0.5vw;
+	border-bottom-right-radius:0.5vw;
+	border-bottom-left-radius:0.5vw;
+}
+.powrot:hover {
+	transition:0.3s;
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+.zamawiam_place:hover {
+	transition:0.3s;
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
